@@ -1,6 +1,6 @@
 <div align="center">
 
-![Ataberk Koç Banner](./assets/banner.svg)
+![Ataberk Koç Banner](./assets/banner.png)
 
 </div>
 
@@ -24,7 +24,7 @@ const me = {
 
 <div align="center">
 
-## `&lt; Languages /&gt;`
+## Languages;`
 
 <a href="https://www.typescriptlang.org/">
   <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6.svg?style=for-the-badge&logo=typescript&logoColor=white&labelColor=111827">
@@ -39,7 +39,7 @@ const me = {
   <img alt="CSS3" src="https://img.shields.io/badge/CSS3-1572B6.svg?style=for-the-badge&logo=css3&logoColor=white&labelColor=111827">
 </a>
 
-## `&lt; Frontend /&gt;`
+## `Frontend`
 
 <a href="https://react.dev/">
   <img alt="React" src="https://img.shields.io/badge/React-61DAFB.svg?style=for-the-badge&logo=react&logoColor=111827&labelColor=111827">
@@ -57,7 +57,7 @@ const me = {
   <img alt="Three.js" src="https://img.shields.io/badge/Three.js-000000.svg?style=for-the-badge&logo=threedotjs&logoColor=white&labelColor=111827">
 </a>
 
-## `&lt; Backend &amp; Platform /&gt;`
+## `Backend Platform`
 
 <a href="https://nodejs.org/">
   <img alt="Node.js" src="https://img.shields.io/badge/Node.js-339933.svg?style=for-the-badge&logo=nodedotjs&logoColor=white&labelColor=111827">
@@ -75,7 +75,7 @@ const me = {
   <img alt="Socket.IO" src="https://img.shields.io/badge/Socket.IO-010101.svg?style=for-the-badge&logo=socketdotio&logoColor=white&labelColor=111827">
 </a>
 
-## `&lt; Database &amp; Infrastructure /&gt;`
+## `Database Infrastructure`
 
 <a href="https://www.mongodb.com/">
   <img alt="MongoDB" src="https://img.shields.io/badge/MongoDB-47A248.svg?style=for-the-badge&logo=mongodb&logoColor=white&labelColor=111827">
@@ -87,7 +87,7 @@ const me = {
   <img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED.svg?style=for-the-badge&logo=docker&logoColor=white&labelColor=111827">
 </a>
 
-## `&lt; Tools &amp; Testing /&gt;`
+## `Tools Testing `
 
 <a href="https://git-scm.com/">
   <img alt="Git" src="https://img.shields.io/badge/Git-F05032.svg?style=for-the-badge&logo=git&logoColor=white&labelColor=111827">
