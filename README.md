@@ -6,7 +6,7 @@
 
 <div align="center">
 
-## `&lt; About Me /&gt;`
+## `About Me`
 
 </div>
 
