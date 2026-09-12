@@ -1,245 +1,117 @@
 <div align="center">
 
-<img src="assets/profile-banner-anime.png" alt="Ataberk Koç — manyZXZ. A personal developer banner." width="960">
+<img src="assets/profile-banner-anime.png" alt="Ataberk Koç — manyZXZ" width="960">
 
-# Building useful things, from the backend outward.
+# Ataberk Koç
 
-**Ataberk Koç · Backend Developer · Antalya, Türkiye**
+**Backend Developer · Antalya, Türkiye**
 
-I build developer tools, backend software, and reusable components.<br>
-My projects connect a practical problem with code you can inspect, run, and understand.
-
-[Projects](#selected-projects) · [Toolkit](#my-toolkit) · [Approach](#how-i-work) · [Connect](#lets-connect)
-
-<p>
-  <a href="https://www.typescriptlang.org/"><img src="assets/badges/typescript.svg" alt="TypeScript" height="30"></a>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="assets/badges/javascript.svg" alt="JavaScript" height="30"></a>
-  <a href="https://nodejs.org/"><img src="assets/badges/nodejs.svg" alt="Node.js" height="30"></a>
-  <a href="https://www.python.org/"><img src="assets/badges/python.svg" alt="Python" height="30"></a>
-  <a href="https://react.dev/"><img src="assets/badges/react.svg" alt="React" height="30"></a>
-  <a href="https://www.docker.com/"><img src="assets/badges/docker.svg" alt="Docker" height="30"></a>
-</p>
-
-[GitHub](https://github.com/manyZXZ) · [Modique](https://modiqueps.com) · [Email](mailto:contact@modiqueps.com)
+[Projects](#projects) · [Stack](#stack) · [Contact](#contact)
 
 </div>
 
-## A little about me
+I'm Ataberk, or **manyZXZ** here on GitHub. I work mostly with **TypeScript, JavaScript, and Node.js**. My projects range from tools for debugging and reviewing code to libraries for Discord cards. I've also been working with Python on a model fine-tuning pipeline.
 
-I'm Ataberk, also known as **manyZXZ**. My starting point is backend development: application behavior, data, integrations, and the tools that make those systems easier to work with.
-
-I also enjoy the visual side of software. That interest shows up in canvas components, Discord experiences, and interfaces that make technical information easier to read.
-
-Across my public projects, you'll find a mix of **developer tooling**, **Node.js libraries**, and **Python experiments**. I care about clear boundaries, reusable building blocks, and documentation that helps someone take the next step without guessing.
-
-| At a glance | Details |
-| :--- | :--- |
-| **Based in** | Antalya, Türkiye |
-| **Primary focus** | Backend development and developer tools |
-| **Main ecosystem** | TypeScript, JavaScript, and Node.js |
-| **Also exploring** | Python, reproducible model training, and visual tooling |
-| **Community project** | [Modique](https://modiqueps.com) |
-| **Away from the editor** | Football |
-
-## Where my work meets
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/profile-focus-dark.svg">
-  <img src="assets/profile-focus-light.svg" alt="Four connected areas of my work: backend systems, developer tools, Discord experiences, and AI experiments." width="960">
-</picture>
-
-| Area | What interests me |
-| :--- | :--- |
-| **Backend systems** | APIs, data access, service integrations, and behavior that can be tested. |
-| **Developer tools** | Turning debugging and review work into repeatable, inspectable workflows. |
-| **Discord experiences** | Bot integrations, reusable cards, and configurable visual components. |
-| **AI experiments** | Reproducible training pipelines, dataset checks, and explicit evaluation steps. |
-
-The connection between them is simple: I like building things that help someone understand a system or get useful work done.
-
-## Selected projects
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/profile-projects-dark.svg">
-  <img src="assets/profile-projects-light.svg" alt="Selected public projects: Test Autopsy for test pollution diagnosis, Modular CLI for web repository review, Modular Canvas for Discord cards, and ECOThinker V1 for reproducible fine-tuning workflows." width="960">
-</picture>
+## Projects
 
 <table>
   <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/manyZXZ/test-autopsy">Test Autopsy</a></h3>
-      <p><strong>Make a failing test order explainable.</strong></p>
-      <p>Investigates Vitest failures that appear when files run together. It reduces the predecessor sequence, records Redis state changes, and checks whether restoring candidate keys lets the target test pass.</p>
-      <p><code>TypeScript</code> <code>Node.js</code> <code>Vitest</code> <code>Redis</code></p>
-      <p><strong>Current scope:</strong> a developer preview for sequential Vitest files and dedicated Redis namespaces.</p>
-      <p><a href="https://github.com/manyZXZ/test-autopsy">Repository →</a> · <a href="https://github.com/manyZXZ/test-autopsy/blob/main/docs/example-report.md">Example evidence</a> · <a href="https://github.com/manyZXZ/test-autopsy/blob/main/docs/methodology.md">Methodology</a></p>
+      <p>A tool for Vitest tests that pass alone but fail after other tests. It narrows down the preceding files, records Redis changes, and checks whether restoring candidate keys makes the target test pass.</p>
+      <p>The developer preview supports sequential Vitest files and dedicated Redis namespaces.</p>
+      <p><code>TypeScript</code> <code>Vitest</code> <code>Redis</code></p>
+      <p><a href="https://github.com/manyZXZ/test-autopsy">Code ↗</a> · <a href="https://github.com/manyZXZ/test-autopsy/blob/main/docs/example-report.md">Example report</a></p>
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/manyZXZ/modular-cli">Modular CLI</a></h3>
-      <p><strong>Review a web project with evidence you can follow.</strong></p>
-      <p>A local CLI for security, accessibility, SEO, and website quality review. Findings connect to source locations and suggested fixes; an optional browser audit adds evidence from the rendered page.</p>
-      <p><code>JavaScript</code> <code>Node.js</code> <code>Playwright</code> <code>Axe</code></p>
-      <p><strong>Design choice:</strong> static scans require no AI model, API key, or runtime dependencies.</p>
-      <p><a href="https://github.com/manyZXZ/modular-cli">Repository →</a> · <a href="https://github.com/manyZXZ/modular-cli/blob/main/docs/README.md">Documentation</a> · <a href="https://github.com/manyZXZ/modular-cli/blob/main/docs/coverage.md">Coverage</a></p>
+      <p>A local CLI for security, accessibility, SEO, and website quality checks. Findings include source locations and suggested fixes. Optional Playwright and Axe audits inspect the rendered page.</p>
+      <p>The static scanner has no runtime dependencies and needs no API key.</p>
+      <p><code>JavaScript</code> <code>Node.js</code> <code>Playwright</code></p>
+      <p><a href="https://github.com/manyZXZ/modular-cli">Code ↗</a> · <a href="https://github.com/manyZXZ/modular-cli/blob/main/docs/getting-started.md">Get started</a></p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/manyZXZ/modular-canvas">Modular Canvas</a></h3>
-      <p><strong>Give reusable components a visual language.</strong></p>
-      <p>A Node.js canvas library for themed Discord cards. Builder APIs separate card data from presentation, with support for profile, rank, music, leaderboard, invite, and welcome cards.</p>
-      <p><code>JavaScript</code> <code>TypeScript definitions</code> <code>@napi-rs/canvas</code></p>
-      <p><strong>Design choice:</strong> configurable themes and composable APIs for different card types.</p>
-      <p><a href="https://github.com/manyZXZ/modular-canvas">Repository →</a> · <a href="https://github.com/manyZXZ/modular-canvas/tree/main/docs/getting-started">Getting started</a> · <a href="https://github.com/manyZXZ/modular-canvas/tree/main/docs/examples">Examples</a></p>
+      <p>A Node.js library for customizable Discord cards: profiles, ranks, music, leaderboards, invites, and welcomes. Builder APIs keep card data separate from themes and layout.</p>
+      <p>Includes TypeScript definitions and examples for themes and Discord integrations.</p>
+      <p><code>JavaScript</code> <code>Node.js</code> <code>@napi-rs/canvas</code></p>
+      <p><a href="https://github.com/manyZXZ/modular-canvas">Code ↗</a> · <a href="https://github.com/manyZXZ/modular-canvas/tree/main/examples">Examples</a></p>
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/manyZXZ/ECOThinker-V1">ECOThinker V1</a></h3>
-      <p><strong>Make model experiments reproducible.</strong></p>
-      <p>A Python and Colab workflow for QLoRA fine-tuning with Qwen3.5-4B. The repository includes training configuration, dataset validation, reviewable notebooks, and release gates.</p>
-      <p><code>Python</code> <code>Jupyter</code> <code>Google Colab</code> <code>QLoRA</code></p>
-      <p><strong>Current scope:</strong> training pipelines and validation; public model weights have not been released.</p>
-      <p><a href="https://github.com/manyZXZ/ECOThinker-V1">Repository →</a> · <a href="https://github.com/manyZXZ/ECOThinker-V1/blob/main/docs/DATASET.md">Dataset contract</a> · <a href="https://github.com/manyZXZ/ECOThinker-V1/blob/main/docs/RELEASE.md">Release process</a></p>
+      <p>A Python and Colab workflow for QLoRA fine-tuning with Qwen3.5-4B. Includes dataset validation, training configuration, notebooks, and checks for preparing a release.</p>
+      <p>The training pipeline is public; model weights haven't been released.</p>
+      <p><code>Python</code> <code>Google Colab</code> <code>QLoRA</code></p>
+      <p><a href="https://github.com/manyZXZ/ECOThinker-V1">Code ↗</a> · <a href="https://github.com/manyZXZ/ECOThinker-V1/blob/main/docs/DATASET.md">Dataset guide</a></p>
     </td>
   </tr>
 </table>
 
-### Find a useful starting point
-
-| If you're interested in… | Start here |
-| :--- | :--- |
-| A test that passes alone but fails in a sequence | [Test Autopsy's captured example](https://github.com/manyZXZ/test-autopsy/blob/main/docs/example-report.md) |
-| Local checks for a web application before release | [Modular CLI's getting-started guide](https://github.com/manyZXZ/modular-cli/blob/main/docs/getting-started.md) |
-| Building themed cards for a Discord integration | [Modular Canvas examples](https://github.com/manyZXZ/modular-canvas/tree/main/docs/examples) |
-| Dataset preparation and repeatable model experiments | [ECOThinker V1's dataset contract](https://github.com/manyZXZ/ECOThinker-V1/blob/main/docs/DATASET.md) |
-
-## My toolkit
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/profile-stack-dark.svg">
-  <img src="assets/profile-stack-light.svg" alt="My toolkit spans TypeScript and JavaScript, Node.js backend development, React interfaces, MongoDB and Redis, testing tools, Docker, and Python experiments." width="960">
-</picture>
-
-**TypeScript, JavaScript, and Node.js** sit at the center of my work. I use the surrounding ecosystem to move between backend behavior, reusable APIs, automated checks, and the interfaces that make a project usable.
-
-Python gives me another workspace for data validation and training experiments. For visual work, I combine web technologies with canvas rendering and Discord integrations.
-
-<details open>
-<summary><strong>Languages and foundations</strong></summary>
-
-| Technology | Where it fits |
-| :--- | :--- |
-| **TypeScript** | Typed application code, contracts, and reusable APIs. |
-| **JavaScript** | Node.js packages, command-line tools, and web behavior. |
-| **Python** | Data checks, training utilities, and experimentation. |
-| **HTML & CSS** | Structure, semantics, and visual presentation. |
-
-</details>
-
 <details>
-<summary><strong>Backend, data, and integrations</strong></summary>
+<summary><strong>Technical notes & documentation</strong></summary>
 
-| Technology | Where it fits |
+| Project | A closer look |
 | :--- | :--- |
-| **Node.js** | The runtime behind my JavaScript tooling and libraries. |
-| **Fastify** | HTTP services and backend APIs. |
-| **MongoDB** | Document-oriented application data. |
-| **Redis / ioredis** | Shared state, application integrations, and test-state investigation. |
-| **GraphQL** | Structured API queries and schemas. |
-| **Socket.IO** | Event-driven client and server communication. |
-| **Discord.js** | Discord bot features and platform integrations. |
+| **Test Autopsy** | [How the reduction and restore checks work](https://github.com/manyZXZ/test-autopsy/blob/main/docs/methodology.md) |
+| **Modular CLI** | [Available checks and their limits](https://github.com/manyZXZ/modular-cli/blob/main/docs/coverage.md) |
+| **Modular Canvas** | [Installation and your first card](https://github.com/manyZXZ/modular-canvas/tree/main/docs/getting-started) |
+| **ECOThinker V1** | [Evaluation and release checklist](https://github.com/manyZXZ/ECOThinker-V1/blob/main/docs/RELEASE.md) |
 
 </details>
 
-<details>
-<summary><strong>Interfaces and visual components</strong></summary>
+## Stack
 
-| Technology | Where it fits |
-| :--- | :--- |
-| **React** | Component-based interfaces. |
-| **Vite** | Frontend development and build workflows. |
-| **Tailwind CSS** | Consistent interface styling. |
-| **Framer Motion** | Motion and interaction in web interfaces. |
-| **Three.js** | Browser-based 3D experiences. |
-| **@napi-rs/canvas** | Programmatic graphics and reusable card rendering. |
+Most of my work is in the Node.js ecosystem. I use Python for data checks and training experiments, and React when a project needs a web interface.
 
-</details>
+**Languages & runtime**
 
-<details>
-<summary><strong>Testing, delivery, and experiments</strong></summary>
+<p>
+  <a href="https://nodejs.org/"><img src="https://img.shields.io/badge/Node.js-17212B?style=for-the-badge&amp;logo=nodedotjs&amp;logoColor=5FA04E" alt="Node.js"></a>
+  <a href="https://www.typescriptlang.org/"><img src="https://img.shields.io/badge/TypeScript-17212B?style=for-the-badge&amp;logo=typescript&amp;logoColor=3178C6" alt="TypeScript"></a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="https://img.shields.io/badge/JavaScript-17212B?style=for-the-badge&amp;logo=javascript&amp;logoColor=F7DF1E" alt="JavaScript"></a>
+  <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-17212B?style=for-the-badge&amp;logo=python&amp;logoColor=FFD43B" alt="Python"></a>
+</p>
 
-| Technology | Where it fits |
-| :--- | :--- |
-| **Vitest / Jest** | Automated checks in JavaScript and TypeScript projects. |
-| **Playwright / Axe** | Browser evidence and accessibility checks. |
-| **Docker** | Repeatable local services and development environments. |
-| **Git / GitHub** | Version control, project documentation, and collaboration. |
-| **npm** | Package workflows and JavaScript tooling. |
-| **Jupyter / Google Colab** | Reviewable notebooks and training experiments. |
-| **QLoRA** | Parameter-efficient fine-tuning workflows. |
+**Backend & data**
 
-</details>
+<p>
+  <a href="https://fastify.dev/"><img src="https://img.shields.io/badge/Fastify-17212B?style=for-the-badge&amp;logo=fastify&amp;logoColor=white" alt="Fastify"></a>
+  <a href="https://www.mongodb.com/"><img src="https://img.shields.io/badge/MongoDB-17212B?style=for-the-badge&amp;logo=mongodb&amp;logoColor=47A248" alt="MongoDB"></a>
+  <a href="https://redis.io/"><img src="https://img.shields.io/badge/Redis-17212B?style=for-the-badge&amp;logo=redis&amp;logoColor=FF4438" alt="Redis"></a>
+  <a href="https://graphql.org/"><img src="https://img.shields.io/badge/GraphQL-17212B?style=for-the-badge&amp;logo=graphql&amp;logoColor=E10098" alt="GraphQL"></a>
+  <a href="https://socket.io/"><img src="https://img.shields.io/badge/Socket.IO-17212B?style=for-the-badge&amp;logo=socketdotio&amp;logoColor=white" alt="Socket.IO"></a>
+  <a href="https://discord.js.org/"><img src="https://img.shields.io/badge/Discord.js-17212B?style=for-the-badge&amp;logo=discorddotjs&amp;logoColor=5865F2" alt="Discord.js"></a>
+</p>
 
-## How I work
+**Interfaces**
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/profile-principles-dark.svg">
-  <img src="assets/profile-principles-light.svg" alt="Four habits behind my projects: inspect the problem, compose the solution, verify behavior, and document the result." width="960">
-</picture>
+<p>
+  <a href="https://react.dev/"><img src="https://img.shields.io/badge/React-17212B?style=for-the-badge&amp;logo=react&amp;logoColor=61DAFB" alt="React"></a>
+  <a href="https://vite.dev/"><img src="https://img.shields.io/badge/Vite-17212B?style=for-the-badge&amp;logo=vite&amp;logoColor=646CFF" alt="Vite"></a>
+  <a href="https://tailwindcss.com/"><img src="https://img.shields.io/badge/Tailwind_CSS-17212B?style=for-the-badge&amp;logo=tailwindcss&amp;logoColor=06B6D4" alt="Tailwind CSS"></a>
+</p>
 
-### Inspect the problem
+**Development & testing**
 
-I want a tool's output to lead back to something concrete: a source location, a state change, or a reproducible example. Test Autopsy's Redis evidence and Modular CLI's findings reflect that preference.
+<p>
+  <a href="https://www.docker.com/"><img src="https://img.shields.io/badge/Docker-17212B?style=for-the-badge&amp;logo=docker&amp;logoColor=2496ED" alt="Docker"></a>
+  <a href="https://git-scm.com/"><img src="https://img.shields.io/badge/Git-17212B?style=for-the-badge&amp;logo=git&amp;logoColor=F05032" alt="Git"></a>
+  <a href="https://vitest.dev/"><img src="https://img.shields.io/badge/Vitest-17212B?style=for-the-badge&amp;logo=vitest&amp;logoColor=6E9F18" alt="Vitest"></a>
+  <a href="https://www.npmjs.com/"><img src="https://img.shields.io/badge/npm-17212B?style=for-the-badge&amp;logo=npm&amp;logoColor=CB3837" alt="npm"></a>
+</p>
 
-### Compose the solution
+## Beyond code
 
-Small interfaces make software easier to reuse. Modular Canvas explores this through builder APIs, themes, and a separation between the data a card carries and the way it looks.
+I also work on **[Modique](https://modiqueps.com)**. You can find the community on [Discord](https://discord.gg/modique) and follow along on [Instagram](https://instagram.com/modiqueps). Away from the editor, I follow football.
 
-### Verify behavior
+## Contact
 
-Tests, repeatable fixtures, and explicit checks help define what a project actually supports. I prefer examples someone can rerun and limits they can inspect alongside the implementation.
-
-### Document the result
-
-Setup instructions, examples, configuration references, and troubleshooting are part of the project. A useful README should help someone decide whether a tool fits their problem and get to a first working result.
-
-## Alongside open source: Modique
-
-I also work on **Modique**, the project connected to my website and community channels. It sits alongside my interest in backend development, Discord integrations, and visual components.
-
-| Explore Modique | Link |
-| :--- | :--- |
-| **Website** | [modiqueps.com](https://modiqueps.com) |
-| **Community** | [Discord](https://discord.gg/modique) |
-| **Updates** | [Instagram](https://instagram.com/modiqueps) |
-| **Contact** | [contact@modiqueps.com](mailto:contact@modiqueps.com) |
-
-## Things I'd enjoy discussing
-
-- **Developer tooling:** recurring debugging or review tasks that could become a useful, focused tool.
-- **Backend behavior:** state, integrations, and practical ways to make failures easier to investigate.
-- **Reusable components:** APIs that support customization without making simple use cases complicated.
-- **Reproducible experiments:** clear inputs, data checks, evaluation, and understandable outputs.
-- **Documentation:** examples and explanations that help the next developer move forward.
-
-For a project-specific question or bug, its repository is the best place to keep the context together. A small reproduction, expected behavior, and relevant environment details make technical conversations much more useful.
-
-## Let's connect
-
-<a href="mailto:contact@modiqueps.com">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/profile-connect-dark.svg">
-  <img src="assets/profile-connect-light.svg" alt="Connect with Ataberk Koç, manyZXZ, through GitHub, Modique, or email." width="960">
-</picture>
-</a>
+For bugs or questions about a project, open an issue in its repository. You can reach me directly at **[contact@modiqueps.com](mailto:contact@modiqueps.com)**.
 
 <div align="center">
 
-**Have a concrete problem, a useful idea, or feedback on a project?**
-
-[Explore my repositories](https://github.com/manyZXZ?tab=repositories) · [Visit Modique](https://modiqueps.com) · [Send an email](mailto:contact@modiqueps.com)
-
-[Discord community](https://discord.gg/modique) · [Instagram](https://instagram.com/modiqueps)
-
-<sub>Ataberk Koç · manyZXZ · Antalya, Türkiye</sub>
+[GitHub](https://github.com/manyZXZ) · [Modique](https://modiqueps.com) · [Discord](https://discord.gg/modique) · [Instagram](https://instagram.com/modiqueps)
 
 </div>
