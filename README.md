@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="assets/profile-banner-anime.png" alt="Ataberk Koç — manyZXZ" width="960">
+<img src="assets/profile-banner-anime.png" alt="Ataberk — manyZXZ" width="960">
 
-# Ataberk Koç
+# Ataberk
 
 **Backend Developer · Antalya, Türkiye**
 
